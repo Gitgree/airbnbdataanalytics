@@ -1,4 +1,10 @@
-Project Components
+Airbnb Data Pipeline — Azure Synapse & Cosmos DB
+📘 Project Overview
+
+This project demonstrates how to build a simple data pipeline integrating Azure Cosmos DB and Azure Synapse Analytics.
+It simulates an Airbnb-like platform where mock customer and booking data are generated, stored, and analyzed using SQL-based aggregation in Synapse.
+
+🧩 Project Components
 1. mock_data_in_cosmosdb.py
 
 This Python script generates mock Airbnb customer and booking data and inserts it into Azure Cosmos DB.
@@ -68,8 +74,3 @@ Automate Cosmos DB → Synapse ingestion using Azure Data Factory.
 Add visualization layer using Power BI.
 
 Incorporate real-time updates with Event Hubs or Stream Analytics.
-
-🧑‍💻 Author
-
-Uddipan Goswami
-Cloud Engineer | Data Enthusiast | Azure & Python Developer
